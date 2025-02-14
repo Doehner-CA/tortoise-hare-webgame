@@ -9,7 +9,7 @@ A simple interactive web game based on the classic "Tortoise and Hare" fable, bu
 3. Try to beat the Hare to the finish line!
 
 ### Special Feature
-Can't win? Try clicking the "Throw a Carrot" button before starting the game for a special advantage! 😉
+Can't win? Try clicking the "Throw a Carrot" button before starting the game for a special advantage!
 
 ## Technical Details
 - Built using vanilla JavaScript
