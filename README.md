@@ -1,4 +1,4 @@
-# Tortoise and Hare Race Game
+# [Tortoise and Hare Race Game](https://doehner-ca.github.io/tortoise-hare-webgame/)
 
 A simple interactive web game based on the classic "Tortoise and Hare" fable, built with JavaScript, SVG, and HTML/CSS.
 
