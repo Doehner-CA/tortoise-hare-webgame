@@ -18,7 +18,7 @@ Can't win? Try clicking the "Throw a Carrot" button before starting the game for
 - Custom CSS animations and styling
 
 ## Try It Out
-Play the game here: [Game Link] ([Replace with your GitHub Pages URL once deployed](https://doehner-ca.github.io/tortoise-hare-webgame/))
+Play the game here: ![Game Link](https://doehner-ca.github.io/tortoise-hare-webgame/)
 
 ## Author
 Created by Xiaodong Cao
