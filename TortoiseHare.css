@@ -1,0 +1,112 @@
+/**
+ * @author Xiaodong Cao, 000911762
+*/
+body{
+	background: url("tortoiseHareBackground.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#headingText {
+    font-family: 'Press Start 2P', cursive; /* Game-style font */
+    animation: textAnimation 2s infinite alternate; /* Animation */
+}
+
+/* Keyframes for the animation */
+@keyframes textAnimation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.textContainer{
+	margin:10px 100px 10px 100px;
+	padding: 10px 0px 10px 0px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background: rgba(255, 255, 255, 0.6);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+}
+#space{
+	background-color: white;
+	border: 1.5px solid black;
+	padding: 0px 3px 0px 3px;
+}
+#start{
+	background-color: white;
+	border: 1.5px solid black;
+	padding: 0px 3px 0px 3px;
+}
+#tips {
+	margin: 10px auto 10px auto;
+}
+#tips p {
+    font-size: 18px;
+    line-height: 1.6; 
+    color: #333; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+}
+
+#console {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 10px 0;
+}
+
+#console #startBtn {
+    background-color: #4CAF50;
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#console #distance {
+    font-weight: bold;
+}
+
+#carrot {
+    background-color: orange; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);/* the third value is the blur radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s, transform 0.2s; /* The background color changes (when you hover over the button), the change will gradually happen over 0.3 seconds. also the transfrom(moving,scaling) */
+}
+
+#carrot:hover {
+    background-color: #e69500; 
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+#carrot:active {
+    background-color: #cc8400; /* darker when active click */
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2); 
+    transform: translateY(1px); /* Slight press down effect on click */
+}
+
+footer{
+	text-align: center;
+	color: white;
+	margin:5px 100px 5px 100px;
+	padding: 10px 30px 10px 30px;
+	border-top: 3px double white;
+}
+footer p{
+	-webkit-text-stroke: 0.3px black;/*https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke*/
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);/*actully we can also use text-shadow to add stroke by adding shadows in all four diretions, but im lazy and hungry*/
+}
